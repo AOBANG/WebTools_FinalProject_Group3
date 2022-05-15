@@ -1,7 +1,5 @@
 body{
   background-color: #D5EBCA;
-  font-family: 'Merriweather Sans', sans-serif;
-  font-family: 'Open Sans', sans-serif;
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -67,6 +65,23 @@ width: 40%;
 height: auto;
 border: 3px solid black;
 border-radius: 10px;
+}
+
+button{
+  background-color: #D5EBCA;
+  border: 2px solid #66A7EB;
+  padding: 10px 20px;
+  margin: 5px 5px 5px 5px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+button:hover{
+  background-color: #E8CBF5;
+  border: none;
 }
 
 footer{
