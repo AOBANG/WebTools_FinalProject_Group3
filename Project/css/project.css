@@ -35,7 +35,8 @@ a:hover{
   justify-content: center;
 }
 img{
-  width: 50%;
+  width: 55%;
+  border: 2px solid #DB6348;
 }
 
 .contentcontainer{
@@ -81,6 +82,8 @@ button{
   border-radius: 12px;
   transition-duration: 0.4s;
 }
+
+
 
 button:hover{
   background-color: #E8CBF5;
