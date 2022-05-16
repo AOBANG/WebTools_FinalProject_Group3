@@ -98,7 +98,7 @@ footer{
 
 @media (max-width: 600px){
   .contentcontainer{
-    flex-direction: row;
+    flex-direction: column-reverse;
   }
   .aboutus{
     width: 100%;
