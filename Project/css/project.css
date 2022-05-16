@@ -34,6 +34,7 @@ a:hover{
   border-radius: 10px;*/
   justify-content: center;
 }
+
 img{
   width: 55%;
   border: 2px solid #DB6348;
@@ -71,9 +72,13 @@ border: 3px solid #66A7EB;
 border-radius: 10px;
 }
 
+.btn_img{
+  width:20%;
+  height:auto;
+}
 button{
   background-color: #D5EBCA;
-  border: 2px solid #66A7EB;
+  border: none;
   padding: 10px 20px;
   margin: 5px 5px 5px 5px;
   text-decoration: none;
