@@ -1,7 +1,7 @@
 body{
   background-color: #D5EBCA;
   font-family: 'Varela Round', sans-serif;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: bolder;
 }
 
@@ -37,7 +37,8 @@ a:hover{
   display: flex;
   max-width: 100%;
   height: auto;
-  border: 1px solid black;
+  margin-top: 20px;
+  /*border: 1px solid black;*/
   justify-content: center;
 }
 
@@ -49,53 +50,109 @@ img{
   display: flex;
   max-width: 100%;
   height: auto;
-  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*border: 1px solid black;*/
   flex-direction: column;
   padding: 10px;
 }
 
 .firstplace{
-  border: 1px solid black;
+  border: 5px solid #DB6348;
+  border-radius: 20px;
   margin: 40px;
+  padding: 20px 20px 20px 20px;
+  overflow: hidden;
 }
+
 .image1{
   float: left;
   width: 45%;
   padding-right: 30px;
+  margin: 20px 20px 20px 20px;
 }
+
+.firstplace img{
+  transition: 0.5s linear;
+}
+
+.firstplace img:hover{
+  transform: scale(1.4);
+}
+
 .secondplace{
-  border: 1px solid black;
+  border: 5px solid #DB6348;
+  border-radius: 20px;
   margin: 40px;
+  padding: 20px 20px 20px 20px;
+  overflow: hidden;
 }
+
 .image2{
   float: right;
   width: 45%;
+  margin: 20px 20px 20px 20px;
 }
-.thirdplace{
-  border: 1px solid black;
-  margin: 40px;
 
+.secondplace img{
+  transition: 0.5s linear;
 }
+
+.secondplace img:hover{
+  transform: scale(1.4);
+}
+
+.thirdplace{
+  border: 5px solid #DB6348;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
 .image3{
   float: left;
   width: 45%;
   padding-right: 30px;
+  margin: 20px 20px 20px 20px;
 }
-.fourthplace{
-  border: 1px solid black;
-  margin: 40px;
 
+.thirdplace img{
+  transition: 0.5s linear;
 }
+
+.thirdplace img:hover{
+  transform: scale(1.4);
+}
+
+.fourthplace{
+  border: 5px solid #DB6348;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
 .image4{
   float: right;
   width: 45%;
+  margin: 20px 20px 20px 20px;
+}
+
+.fourthplace img{
+  transition: 0.5s linear;
+}
+
+.fourthplace img:hover{
+  transform: scale(1.4);
 }
 
 footer{
   display: flex;
   max-width: 100%;
   height: auto;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   border-radius: 10px;
   justify-content: space-evenly;
+  font-size: 18px;
 }
